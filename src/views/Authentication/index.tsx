@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css';
-import InputBox from 'components/InputBox';
+// import InputBox from 'components/InputBox';
 import './style.css';
 export default function Authentication() {
   return (
@@ -14,11 +14,14 @@ export default function Authentication() {
             <div className="auth-card-text-email-address">이메일 주소</div>
 
             <div className="auth-card-text-email-input-box">
-              <InputBox label='이메일 주소*' type='text' placeholder='사용할 이메일을 입력하세요.' />
+              <input type='text' placeholder='사용할 이메일을 입력하세요.' />
+              
             </div>
             <div className="auth-card-text-email-address">전체 이름</div>
+            <input type='text' placeholder='이름을 입력하세요.' />
             <div className="auth-card-text-name-input-box"></div>
             <div className="auth-card-text-email-address">비밀번호</div>
+            <input type='text' placeholder='새 비밀번호를 입력하세요.' />
             <div className="auth-card-text-password-input-box">
               <div className="gray-line-box"></div>
               <div className="gray-line-box"></div>
