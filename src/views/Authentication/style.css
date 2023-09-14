@@ -1,0 +1,68 @@
+#auth-wrapper{
+
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(assets/background.png);
+    background-color: rgba(232, 241, 255,1);
+    background-repeat: no-repeat;
+    /* background-size: 1680px 956px;  */
+ 
+    background-size: 1680px 956px auto;
+    background-position: center ;
+}
+
+.auth-card-container{
+    margin: 78px 0px 109px 0px;
+
+    width: 500px;
+    height: 769px;
+
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px 30px;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.auth-card-title-text{
+    margin: 25px 71px 0px 71px;
+    width: 360px;
+    height: 80px;
+    padding: 15px 0px 15px 0px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 110%;
+    gap: 46px;
+} 
+
+.auth-card-input-container{
+    width: 400px;
+    height: 311px;
+    background-color: rgb(102, 102, 51);
+}
+.auth-card-text-email-address{
+    width: 200px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+}
+
+  
