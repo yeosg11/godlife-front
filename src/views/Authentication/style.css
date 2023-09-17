@@ -1,7 +1,7 @@
 #auth-wrapper{
 
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
    
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@
     gap: 30px;
     background-color: rgba(255, 255, 255, 1);
 }
+
 .auth-card-title-text{
     margin: 25px 71px 0px 71px;
     width: 360px;
@@ -54,20 +55,115 @@
    
     /* background-color: rgb(102, 102, 51); */
 }
-.auth-card-text-email-address{
-    width: 200px;
-    height: 24px;
-    display: flex;
-    justify-content: flex-start;
-    color: #000;
+.auth-card-text-email{
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 22px; 
+    margin-bottom: 10px;
+
 }
 
-.auth-card-text-email-input-box{
+.email-holder{
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    background: #F1F3F2;
+    margin-bottom: 25px;
+}
+
+.auth-card-name-text{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+   margin-bottom: 10px;
+
+}
+
+.name-holder{
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    background: #F1F3F2;
+    margin-bottom: 25px;
+}
+
+.auth-card-password-text{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+   margin-bottom: 10px;
+}
+
+
+.password-holder{
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    background: #F1F3F2;
+    margin-bottom: 10px;
+}
+
+.gray-line-box{
+    width: 400px;
+    height: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin: 0px 5px 15px;
+}
+
+.gray-line{
+    width: 70px;
+    height: 5px;
+    gap: 13px;
+    background-color: rgba( 204, 204 , 204 , 1);
+}
+
+
+.auth-description{
+
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.255px;
+   
+    white-space: pre-wrap;
+}
+
+.auth-card-bottom-text{
+    cursor: pointer;
     width: 400px;
     height: 50px;
-}
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 110%;
+    gap: 50px;
+} 
